@@ -1,5 +1,5 @@
 var cardsontable = 50;
-var hand = [];
+var hand = []; //wierdly, this didn't work when I tried to initalize as type numeber
 var deck = [];
 var debug = ["Program started"];
 var table = [false];
@@ -41,6 +41,9 @@ function dealCard(dummyindex) {
         if (cardtoDeal > 0) {
             document.getElementById("myPanel").innerHTML += "<button>" + cardtoDeal + "</button>";
             hand.push(cardtoDeal);
+        }
+        else {
+            debug.push("No card found");
         }
     }
 }
