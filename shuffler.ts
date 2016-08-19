@@ -1,5 +1,5 @@
 var cardsontable = 50;
-var hand = [];
+var hand = []; //wierdly, this didn't work when I tried to initalize as type numeber
 var deck = [];
 var debug = ["Program started"];
 var table = [false];
