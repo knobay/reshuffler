@@ -46,7 +46,7 @@ function dealCard(dummyindex) {
             hand.push(cardtoDeal);
         }
         else {
-            debug.push("No card found"); // can't imagine why this would ever happen, probably redundant'
+            debug.push("No card found"); // can't remember why this happen, but it does'
         }
     }
 }
