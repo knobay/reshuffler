@@ -46,7 +46,7 @@ function dealCard(dummyindex) {
             hand.push(cardtoDeal);
         }
         else {
-            debug.push("No card found"); // can't remember why this happen, but it does'
+            debug.push("No card found"); // i think this runs if you try to deal when you have dealt all the cards in the hand
         }
     }
 }
